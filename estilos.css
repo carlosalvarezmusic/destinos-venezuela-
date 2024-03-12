@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+}
+
+header.abajo {
+    background: #fff;
+    padding: 15px 20px;
+}
+
+header .logo {
+    position: relative;
+    color: #070101;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    font-family: helvetica;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #040101;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.Zona1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("imagen/Viajes.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+header.abajo .logo,
+header.abajo ul li a {
+    color: #000;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 330px;
+}
+
+footer {
+    background-color: #0a0501dc;
+    color: #fff;
+    height: 330px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.derecha {
+    float: right;
+    width: 300px;
+    margin: 40px;
+}
+
+.izquierda {
+    float: left;
+    width: 300px;
+    margin: 40px;
+}
+
+.contenedor {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main {
+    padding-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
