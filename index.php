@@ -14,13 +14,17 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos.css">
    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
-		<a href="#" class="logo">DestinoVNZL</a>
+		<h2>DestinoVNZL</h2>
 		<nav>
 			<ul>
 				<li><a href="#">Inicio</a></li>
+        <li><a href="#perfil">Quienes somos</a></li>
 				<li><a href="#">Turismo Nacional</a></li>
 				<li><a href="#">Viajes Nacionale</a></li>
 				<li><a href="#">Viajes Internacionales</a></li>
@@ -29,117 +33,31 @@
 		</nav>
 	
 </header>    
-<section class="Zona1"></section>
+
+<section class="Zona1">
+  <p class="eslogan">Vive una aventura con nuestros</p>
+
+<p class="p">VIAJES.</p>
+</section>
 
 <main>
 
-<div class="row row-cols-1 row-cols-md-3 g-4">  
-  <div class="col">
-    <div class="card h-100">
-      <img src="imagen/Viajes.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Precio</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="imagen/imagen.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Precio</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="imagen/imagen1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Precio</p>
-      </div>
-    </div>
-  </div>
+<div class="main">
+<div class="info">
+  <section class="perfil" id="perfil">
+    <h1>¿Quienes somos?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum necessitatibus illum numquam totam nobis quisquam, atque reiciendis odio tenetur nisi beatae vero doloremque architecto impedit commodi porro placeat! At, quisquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum necessitatibus illum numquam totam nobis quisquam, atque reiciendis odio tenetur nisi beatae vero doloremque architecto impedit commodi porro placeat! At, quisquam.</p>
+  </section>
+
   
-  <div class="col">
-    <div class="card h-100">
-      <img src="imagen/Viajes.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Precio</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col">
-    <div class="card h-100">
-      <img src="imagen/imagen.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Precio</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="imagen/imagen1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Precio</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col">
-    <div class="card h-100">
-      <img src="imagen/Viajes.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Precio</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="imagen/imagen.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Precio</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="imagen/imagen1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Precio</p>
-      </div>
-    </div>
+</div>
+<div class="img" >
+    <img src="imagen/quienes_somos.jpg" alt="">
   </div>
 </div>
 
-
-        
 </main>
-<section>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor .in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</section>
+
  <footer>
 
     <div class="izquierda">
